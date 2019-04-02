@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+
+	border: 1px solid red;
+}
+
+html,body {
+	font-family: monospace;
+	background-color: hsl(200 75% 90%);
+	color: hsl(200 70% 25%);
+	min-width: 260px;
+}
+
+#main {
+	display: flex;
+	margin: 25px auto;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+#title {
+	display: flex;
+	font-size: 55px;
+	justify-content: center;
+	align-content: center;
+	margin: 15px auto;
+}
+
+#img-div {
+	display: flex;
+	margin: 10px auto;
+	flex-direction: column;
+}
